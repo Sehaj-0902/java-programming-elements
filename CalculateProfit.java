@@ -15,7 +15,7 @@ public class CalculateProfit {
 		// Create a variable profitPercent to calculate and store value of profit percentage
 		int profitPercent = (profit * 100) / costPrice;
 
-		// Print the calculates profit and profit percentage
+		// Print the calculated profit and profit percentage
 		System.out.println("The Cost Price is INR " + costPrice + " and Selling Price is INR " + sellingPrice + "\nThe Profit is INR " + profit + " and the Profit Percentage is " + profitPercent);
 	}
 }
