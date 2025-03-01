@@ -24,7 +24,6 @@ public class AreaOfTriangle {
 		// Create a variable areaInInches to calculate and store value of area in square inches
 		double areaInInches = 0.5 * base * height;
 
-
 		// Create a variable areaInCm to convert area from square inches to square centimeters (1 inch = 2.54 cm, 1 sq inch = 2.54*2.54 sq cm)
         	double areaInCm = areaInInches * 2.54 * 2.54;
 
