@@ -21,6 +21,7 @@ public class HeightConverter {
                 // Create a variable heightInFeet to calculate and store value of height in feet
                 int heightInFeet = (int) (heightInCm / 2.54) / 12;
 
+		// Print the converted height in feet and inches
                 System.out.println("Your Height in cm is " + heightInCm + " while in feet is " + heightInFeet + " and inches is " + String.format("%.2f", heightInInches));
         }
 }
